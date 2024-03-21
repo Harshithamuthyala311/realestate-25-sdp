@@ -1,0 +1,22 @@
+{% extends 'Navbar/agentsnavbar.html' %}
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agents Homepage</title>
+    <link rel="stylesheet" href="{% static 'css/agents.css' %}">
+    <!-- Include any additional CSS or meta tags as needed -->
+</head>
+<body>
+
+{% block body %}
+    <div class="agents-homepage">
+        <h2 class="page-heading">Welcome to the Agents Homepage</h2>
+        <!-- Properties-specific content goes here -->
+    </div>
+{% endblock %}
+
+</body>
+</html>
